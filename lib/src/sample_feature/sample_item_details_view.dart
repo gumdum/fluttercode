@@ -13,7 +13,8 @@ class SampleItemDetailsView extends StatelessWidget {
         title: const Text('Item Details'),
       ),
       body: const Center(
-        child: Text('More Information Here'),
+        child: Text(
+            'More Information Here<a href=\"https://github.com/gumdum/fluttercode\">https://github.com/gumdum/fluttercode</a>'),
       ),
     );
   }
